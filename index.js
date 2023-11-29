@@ -13,7 +13,7 @@ const server = http.createServer(function (req, res) {
 });
 
 const PORT = 3000;
-const IP = "127.0.0.1";
+const IP = "0.0.0.0";
 server.listen(PORT, IP, () => {
   console.log(`Server is running at! http://localhost:3000`);
 });
